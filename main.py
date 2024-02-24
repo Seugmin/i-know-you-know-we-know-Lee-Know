@@ -1,7 +1,7 @@
 class Animal:
     def __init__(self, name , species, legs):
-        self.name = input("name: ")
-        self.species = "animal"
+        self.name = input("name:")
+        self.species = "Animal"
         self.legs = 4
 
     def voice(self):
